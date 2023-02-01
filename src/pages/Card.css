@@ -1,0 +1,74 @@
+
+.box{
+    background-color: aliceblue;
+}
+.main-Card{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 20px;
+  font-size: large;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: azure;
+  border-radius: 20px;
+ 
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    line-height: 5px;
+    flex:1;
+} 
+
+
+.bottom{
+    background-color: azure;
+    border-radius: 15px;
+    padding: 25px;
+    border-color: bisque;
+    border-width: 5px;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.hide{
+    display: none;
+}
+
+
+
+.bottom-item{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+.colomn{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+}
+
+.button {
+    color: whitesmoke;
+    background-color: rgb(240, 29, 29);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    width: 8em;
+    font-size: large;
+    font-weight: 600;
+  }
+
+  .left{
+    align-items: flex-start;
+  }
